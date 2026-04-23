@@ -1,0 +1,206 @@
+@media (max-width:75rem)
+/* 1200px / 16 = 75 */
+    {
+    .work__container {
+        max-height: 600px;
+    }
+
+    .img__container {
+        max-width: 260px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width:62.5rem)
+/* 1000 / 16 = 62.5 */
+    {
+    html {
+        font-size: 75%;
+        /* 16 * 0.75 = 12px */
+    }
+
+    .home {
+        background-image: url("/assets/images/home-bg-tablet.webp");
+    }
+
+    .home .overlay {
+        background-color: rgba(0, 0, 0, 0.153);
+    }
+
+    .service__type {
+
+        max-width: 180px;
+    }
+
+    .service__type svg {
+        width: 75px;
+        height: 75px;
+    }
+
+    .work {
+        height: 90vh;
+
+    }
+
+    .work__container {
+        max-width: 600px;
+        max-height: 360px;
+    }
+
+    .img__container {
+        max-width: 180px;
+        max-height: 180px;
+    }
+
+    .img__content {
+        margin-top: 30px;
+    }
+
+    .img__content h3 {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+@media (max-width:43.75rem)
+/* 700 / 16 = 43.75 */
+    {
+    html {
+        font-size: 62.5%;
+        /* 16 * 0.6250 = 10px */
+    }
+
+    .service__type {
+        max-width: 120px;
+    }
+
+    .service__type svg {
+        width: 75px;
+        height: 75px;
+    }
+
+    .img__container {
+        max-width: 150px;
+        max-height: 180px;
+    }
+
+    .about__container {
+        font-size: 1.3rem;
+    }
+
+    .contact__info p {
+        font-size: 1.5rem;
+    }
+
+    .contact__form label {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:37.5rem)
+/* 600 / 16 = 37.5 */
+    {
+
+    .home {
+        background-image: url("/assets/images/home-bg-mobile.webp");
+    }
+
+    .service__container {
+        flex-direction: column;
+    }
+
+    .service__type {
+
+        max-width: unset;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service__header {
+        display: block;
+    }
+
+    .service__header h3 {
+        margin-top: 10px;
+    }
+
+    .service__type svg {
+        min-width: 75px;
+        height: 75px;
+    }
+
+    .service__type p {
+        font-size: 1.2rem;
+    }
+
+    .work__container {
+        min-width: 500px;
+        max-height: 360px;
+    }
+
+    .img__container {
+        max-width: 150px;
+        max-height: 180px;
+    }
+
+    .about {
+        height: 100vh;
+    }
+
+    .about__container {
+        min-width: 300px;
+        min-height: 600px;
+    }
+
+}
+
+
+@media (max-width:31.25rem)
+/* 500 / 16 = 31.25 */
+    {
+    .main__nav {
+        padding: 2rem;
+    }
+
+    .main__nav ul {
+        gap: 20px;
+    }
+
+    .main__nav ul li a {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .main__nav ul li:nth-of-type(6),
+    .main__nav ul li:nth-of-type(7) {
+        display: none;
+    }
+
+    .work__container {
+        min-width: 300px;
+        min-height: 540px;
+    }
+
+    .img__container {
+        max-width: 150px;
+        max-height: 180px;
+    }
+
+    .contact__form-container {
+        min-width: 300px;
+        display: block;
+    }
+
+    .contact__info {
+        display: none;
+    }
+
+    .contact__form {
+        width: 100%;
+    }
+}
