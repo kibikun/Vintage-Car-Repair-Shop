@@ -51,7 +51,7 @@ body {
     visibility: visible;
     position: relative;
     height: 110vh;
-    background-image: url("./assets/images/home-bg.webp");
+    background-image: url("assets/images/home-bg.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -119,7 +119,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/images/service-bg.webp");
+    background-image: url("../images/service-bg.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
