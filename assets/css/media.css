@@ -20,7 +20,7 @@
     }
 
     .home {
-        background-image: url("/assets/images/home-bg-tablet.webp");
+        background-image: url("../images/home-bg-tablet.webp");
     }
 
     .home .overlay {
@@ -105,7 +105,7 @@
     {
 
     .home {
-        background-image: url("/assets/images/home-bg-mobile.webp");
+        background-image: url("../images/home-bg-mobile.webp");
     }
 
     .service__container {

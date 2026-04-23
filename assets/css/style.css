@@ -51,7 +51,7 @@ body {
     visibility: visible;
     position: relative;
     height: 110vh;
-    background-image: url("/assets/images/home-bg.webp");
+    background-image: url("../images/home-bg.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -119,7 +119,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/images/service-bg.webp");
+    background-image: url("../images/service-bg.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ body {
 
 .about {
     height: 90vh;
-    background-image: url("/assets/images/about-bg.webp");
+    background-image: url("../images/about-bg.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -307,7 +307,7 @@ body {
 
 .random-page {
     height: 80vh;
-    background-image: url("/assets/images/rand-bg.jpg");
+    background-image: url("../images/rand-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -321,7 +321,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/images/about-bg.webp");
+    background-image: url("../images/about-bg.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
